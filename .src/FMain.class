@@ -1,0 +1,13 @@
+' Gambas class file
+
+Public Sub Button1_Click()
+
+    FormComboBoxGrafico.lista = ["bet365", "betstars", "betway", "circus", "codere", "goldenpark", "luckia", "marathonbet", "paf", "paston", "sportium", "wanabet", "williamhill"]
+    FormComboBoxGrafico.lista2 = ["paypal", "openbank", "caixa"]
+    FormComboBoxGrafico.abrir(TextBoxOrigen)
+
+End
+
+Public Sub Form_Open()
+
+End
